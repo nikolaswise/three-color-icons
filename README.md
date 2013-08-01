@@ -2,11 +2,15 @@
 
 A proof-of-concept at creating a font that will semantically deliver three color icons with an icon font. The basic markup is very simple:
 
-```
-<span class="icon-font">html</span>
-```
 
-The font will use ligatures and ```:before``` and ```:after``` pseudo elements which are each offset so all the elements align. Because the extra colors are done in pseudo elements, they won't be read by screen-readers. And as the main element is a ligature, it can be very semantic.
+## Semantic Ligatures
+
+```
+<span class="icon spaceship">spaceship</span>
+```
+Adding the class "icon" enables the icon font, and the class "spaceship" connects to the CSS so we can get the proper color layers.
+
+The font will use ligatures and ```:before``` and ```:after``` pseudo elements which are each offset so all the elements align. Because the extra colors are done in pseudo elements, they won't be read by screen-readers. And as the main element is a ligature, it can be very semantic. 
 
 ## Using Icomoon
 
