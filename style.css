@@ -13,6 +13,18 @@
 	font-style: normal;
 }
 
+@font-face {
+	font-family: 'Retro-Set';
+	src:url('fonts/Retro-Set.eot');
+	src:url('fonts/Retro-Set.eot?#iefix') format('embedded-opentype'),
+		url('fonts/Retro-Set.woff') format('woff'),
+		url('fonts/Retro-Set.ttf') format('truetype'),
+		url('fonts/Retro-Set.svg#Retro-Set') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
 /* Use the following CSS code if you want to use data attributes for inserting your icons */
 [data-icon]:before {
 	font-family: 'Color-Test';

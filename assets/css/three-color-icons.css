@@ -1,0 +1,83 @@
+@font-face {
+  font-family: 'Retro-Set';
+  src: url("../fonts/Retro-Set.eot");
+  src: url("../fonts/Retro-Set.eot?#iefix") format("embedded-opentype"), url("../fonts/Retro-Set.woff") format("woff"), url("../fonts/Retro-Set.ttf") format("truetype"), url("../fonts/Retro-Set.svg#Retro-Set") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 12, ../sass/_font.scss */
+.icon {
+  font-family: 'Retro-Set';
+  -webkit-font-feature-settings: "liga","dlig";
+  -moz-font-feature-settings: "liga=1, dlig=1";
+  -moz-font-feature-settings: "liga","dlig";
+  -ms-font-feature-settings: "liga","dlig";
+  -o-font-feature-settings: "liga","dlig";
+  font-feature-settings: "liga","dlig";
+  text-rendering: optimizeLegibility;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  color: #6d6e71;
+}
+
+/* line 5, ../sass/_variables.scss */
+.spaceship:after {
+  content: "spaceshipForeground";
+  margin-left: -1em;
+  color: #f3f4f4;
+}
+/* line 6, ../sass/_variables.scss */
+.spaceship:before {
+  content: "spaceshipBackground";
+  margin-right: -1em;
+}
+
+/* line 10, ../sass/_variables.scss */
+.books:after {
+  content: "booksForeground";
+  margin-left: -1em;
+  color: #f3f4f4;
+}
+/* line 11, ../sass/_variables.scss */
+.books:before {
+  content: "booksBackground";
+  margin-right: -1em;
+}
+
+/* line 14, ../sass/_variables.scss */
+.code {
+  color: #cccccb;
+}
+/* line 16, ../sass/_variables.scss */
+.code:after {
+  content: "codeForeground";
+  margin-left: -1em;
+  color: #c96b4b;
+}
+/* line 17, ../sass/_variables.scss */
+.code:before {
+  content: "codeBackground";
+  margin-right: -1em;
+  color: #f3f4f4;
+}
+
+/* line 20, ../sass/_variables.scss */
+.green:before {
+  color: #67a966;
+}
+
+/* line 21, ../sass/_variables.scss */
+.red:before {
+  color: #c96b4b;
+}
+
+/* line 4, ../sass/three-color-icons.scss */
+h1 {
+  text-align: center;
+  font-size: 10rem;
+}
