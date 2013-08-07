@@ -5,7 +5,7 @@
 03. Multi-color Power
 04. Semantic as HELL
 05. Flexible color options.
-06. Tiny file size for what you get
+06. Tiny file size for what you gets
 
 ## The Context
 The icon font is recognized and widely used for it's ability to bring small images to the web - easily improving previous methods of populating a website with a set of images.The icon font uses the power of the font rendering to replace letterforms with our own images. There are a lot of really fantastic resources that explain why icon fonts are so awesome in more depth. 
@@ -102,3 +102,20 @@ And give each pseusdo-element a negative margin of 1em to align each piece in to
 And there it is. A three color, semantic icon built from a single icon font. 
 
 
+## Variable Background Colors
+
+Adding a class of "red" or "green" targets the the :before selector, defining a new color for that layer. As such, 
+```
+<span class="icon spaceship green">spaceship</span>
+```
+Will output a three color spaceship icon with a green background. 
+```
+<span class="icon spaceship red">spaceship</span>
+```
+Is the same icon, with a red background.
+
+## Using Icomoon
+
+To modify your generated font, use the *dev.svg* file, located in the *fonts* folder in this package. You can import this dev.svg file to the IcoMoon app. All the tags (class names) and the Unicode points of your glyphs are saved in this file.
+
+See the documentation for more info on how to use this package: http://icomoon.io/#docs/font-face
