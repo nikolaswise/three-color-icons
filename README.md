@@ -29,4 +29,4 @@ In this same section, we can also define the colors of each layer. The final htm
 <span class="icon esri-logo">esri</span>	
 ```
 
-### example: http://nikolaswise.github.io/three-color-icons/esri-logo.html
+#### example: http://nikolaswise.github.io/three-color-icons/esri-logo.html
