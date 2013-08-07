@@ -1,6 +1,6 @@
 # Three Color Icons
 
-![Final Three Color Icon](/images/final.jpg)
+![Final Three Color Icon](images/final.jpg)
 
 Using IcoMoon icon fonts with ligatures is a great way to bring a large family of icons into your site, with benefits ranging from semantic icon tags, tiny file size, control over color, and the inherent advantages of vector rendering on high pixel density hardware. This technique expands that benefit into multi-color icons, using :before and :after elements to create three layers with three colors. 
 
