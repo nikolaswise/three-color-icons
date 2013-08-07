@@ -1,4 +1,54 @@
+<style>
+@font-face {
+  font-family: 'esri-logo';
+  src: url("fonts/esri-logo.eot");
+  src: url("fonts/esri-logo.eot?#iefix") format("embedded-opentype"), url("fonts/esri-logo.woff") format("woff"), url("fonts/esri-logo.ttf") format("truetype"), url("fonts/esri-logo.svg#esri-Set") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.icon {
+  font-family: 'esri-logo';
+  -webkit-font-feature-settings: "liga","dlig";
+  -moz-font-feature-settings: "liga=1, dlig=1";
+  -moz-font-feature-settings: "liga","dlig";
+  -ms-font-feature-settings: "liga","dlig";
+  -o-font-feature-settings: "liga","dlig";
+  font-feature-settings: "liga","dlig";
+  text-rendering: optimizeLegibility;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  color: #6d6e71;
+}
+
+.esri-logo {
+  color: #bad045;
+}
+.esri-logo:after {
+  content: "esrifront";
+  color: black;
+  margin-left: -1em;
+}
+.esri-logo:before {
+  content: "esriback";
+  color: #57A6D9;
+  margin-right: -1em;
+}
+
+h1 {
+  text-align: center;
+  font-size: 10rem;
+}
+</style>
+
 # Three Color Icons
+
+<span class="icon esri-logo">esri</span>
+
 Using IcoMoon icon fonts with ligatures is a great way to bring a large family of icons into your site, with benefits ranging from semantic icon tags, tiny file size, control over color, and the inherent advantages of vector rendering on high pixel density hardware. This technique expands that benefit into multi-color icons, using :before and :after elements to create three layers with three colors. 
 
 ## Color Separations
