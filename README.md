@@ -1,11 +1,7 @@
 # Three Color Icons
 This is a technique for using IcoMoon to create semantic, ligature enabled, three color icon fonts.
 
-<<<<<<< HEAD
-![Final Three Color Icon](images/final.png)
-=======
 ![Final Three Color Icon](https://raw.github.com/nikolaswise/three-color-icons/master/images/final.png)
->>>>>>> 0c6a22e9ce355b6a0fa02f97464e250b9b286271
 
 http://nikolaswise.github.io/three-color-icons/esri-logo.html
 
