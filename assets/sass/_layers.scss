@@ -1,0 +1,27 @@
+$green: #bad045;
+$blue: #c4dff4;
+$black: #000000;
+
+.esri-logo {
+	&:after {content:"esrifront"}
+	&:before {content:"esriback"}
+}
+
+.spaceship {
+	&:after {content:"spaceshipForeground";margin-left: -1em; color: $pale;}
+	&:before {content:"spaceshipBackground";margin-right: -1em;}
+}
+
+.books {
+	&:after {content:"booksForeground";margin-left: -1em; color: $pale;}
+	&:before {content:"booksBackground";margin-right: -1em;}	
+}
+
+.code {
+	color: #cccccb;
+	&:after {content:"codeForeground";margin-left: -1em; color: $red}
+	&:before {content:"codeBackground";margin-right: -1em; color: #f3f4f4;}	
+}
+
+.green {&:before {color:$green;}}
+.red {&:before {color:$red;}}

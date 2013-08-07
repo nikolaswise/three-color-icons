@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="32px"
+	 height="32px" viewBox="0 0 32 32" enable-background="new 0 0 32 32" xml:space="preserve">
+<g id="background" display="none">
+	<rect x="7" y="24" display="inline" fill="#6D6E71" width="18" height="8"/>
+	<path display="inline" fill="#6D6E71" d="M0,26c0,1.656,1.343,3,3,3h26c1.657,0,3-1.344,3-3v-5H0V26z"/>
+	<rect y="0.001" display="inline" fill-rule="evenodd" clip-rule="evenodd" fill="none" width="32" height="31.999"/>
+	<g display="inline">
+		<polygon fill="#6D6E71" points="25,15 7,15 7,0.001 18.3,0.001 25,6.701 		"/>
+	</g>
+</g>
+<g id="main">
+	<polygon fill="#F8F8F8" points="6,23 6,26 7,26 7,24 25,24 25,26 26,26 26,23 	"/>
+	<rect x="8" y="25" fill="#F8F8F8" width="16" height="6"/>
+	<polygon fill="#F8F8F8" points="25.5,13.001 25,13.001 25,15 7,15 7,13.001 6.5,13.001 6,16 26,16 	"/>
+	<rect y="20" fill="#F8F8F8" width="32" height="1"/>
+	<g>
+		<polygon fill="#F8F8F8" points="18,7.001 24,7.001 24,6.991 18.01,1.002 18,1.002 		"/>
+		<polygon fill="#F8F8F8" points="18,8.001 17,8.001 17,7.001 17,1.002 8,1.002 8,14 24,14 24,8.001 		"/>
+	</g>
+</g>
+<g id="foreground" display="none">
+	<rect x="10.999" y="28" display="inline" fill="#A7A9AC" width="10" height="1"/>
+	<rect x="10.999" y="26" display="inline" fill="#A7A9AC" width="10" height="1"/>
+	<path display="inline" fill="#A7A9AC" d="M31.922,19.773C31.754,19.041,30.546,15.092,30,14c-1-1.999-1.593-2.999-3.25-2.999H25v2
+		h0.5L26,16H6l0.5-2.999H7v-2H5.25c-1.657,0-2.25,1-3.25,2.999c-0.546,1.092-1.754,5.041-1.922,5.773
+		C0.061,19.85,0.062,19.926,0.052,20h31.896C31.938,19.926,31.939,19.85,31.922,19.773z"/>
+</g>
+</svg>
