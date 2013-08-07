@@ -15,26 +15,18 @@ In this same section, we can also define the colors of each layer. The final htm
   font-family: 'esri-logo';
 }
 
-/* Define the correct layer set for the icon */
-.esri-logo {
-	/* Set the central layer to green */
-	color: #bad045;'
+/* Set the central layer to green */
+.esri-logo {color: #bad045;'}
 
-	/* Set the background layer ligature an color */
-	&:after {content:"esrifront"; color: #000000}
+/* Set the background layer ligature an color */
+.esri-logo:after {content:"esrifront"; color: #000000}
 
-	/* Set the foreground layer ligature an color */
-	&:before {content:"esriback"; color: #c4dff4}
-}
+/* Set the foreground layer ligature an color */
+.esri-logo:before {content:"esriback"; color: #c4dff4}
+
 
 /* Create the ligature that puts it all together */
 <span class="icon esri-logo">esri</span>	
 ```
 
 ### example: http://nikolaswise.github.io/three-color-icons/esri-logo.html
-
-## Using Icomoon
-
-To modify your generated font, use the *dev.svg* file, located in the *fonts* folder in this package. You can import this dev.svg file to the IcoMoon app. All the tags (class names) and the Unicode points of your glyphs are saved in this file.
-
-See the documentation for more info on how to use this package: http://icomoon.io/#docs/font-face
