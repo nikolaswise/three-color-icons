@@ -1,5 +1,5 @@
 # Three Color Icons
-This is a technique for using IcoMoon to create semantic, ligature enabled, three color icon fonts.
+This is a technique for using [IcoMoon](http://icomoon.io/) to create semantic, [ligature](http://en.wikipedia.org/wiki/Typographic_ligature)-enabled, three color icon fonts.
 
 ![Final Three Color Icon](https://raw.github.com/nikolaswise/three-color-icons/master/images/final.png)
 
@@ -18,10 +18,10 @@ In a normal ligature-enabled icon font, each icon is a single .svg mapped to a s
 
 Our three esri logo ligatures are "esri", "esrifront", and "esriback". Keeping the names of each icon related maintains semantic clarity with multiple layers for multiple icons.
 
-Generate a single font with all the layers of all your icons - there is practically no limit to how many icons you can store, as each one maps to it's own unique set of characters. 
+Generate a single font with all the layers of all your icons - there is practically no limit to how many icons you can store, as each one maps to its own unique set of characters. 
 
 ## Color Separations
-Creating the multi-color icons is a little more complex than single color icons. In a program like illustrator, figure how how your icon will layer. For our esri logo, we're going to use the blue circle for the background, the green landforms for the main layer, and the black coordinate lines as the top layer. 
+Creating the multi-color icons is a little more complex than single color icons. In a program like illustrator, figure how your icon will layer. For our esri logo, we're going to use the blue circle for the background, the green landforms for the main layer, and the black coordinate lines as the top layer. 
 
 ![Layers of an Icon in Illustrator](https://raw.github.com/nikolaswise/three-color-icons/master/images/layers.png)
 
@@ -30,7 +30,7 @@ Save each layer as an individual .svg file. Here is each layer for our logo on i
 ![Color Separations in Illustrator](https://raw.github.com/nikolaswise/three-color-icons/master/images/separations.png)
 
 ## Implementation
-The CSS that IcoMoon includes with the generated font is an ideal place to start. Creating a class called icon, we can call the icon font within a span. Each icon also needs it's own class, so we can match each icon with its layers. The ``:after`` pseudo-element is the top layer, and the ``:before`` pseudo-element is the bottom layer. Since each icon layer is drawn on a square, aligning all three layers is as simple as giving each pseudo-element a negative margin of 1em. This will perfectly align each  layer at every font size.
+The CSS that IcoMoon includes with the generated font is an ideal place to start. Creating a class called icon, we can call the icon font within a span. Each icon also needs its own class, so we can match each icon with its layers. The ``:after`` pseudo-element is the top layer, and the ``:before`` pseudo-element is the bottom layer. Since each icon layer is drawn on a square, aligning all three layers is as simple as giving each pseudo-element a negative margin of 1em. This will perfectly align each  layer at every font size.
 
 In this same section, we can also define the colors of each layer. The final markup is a span with a class for the icon font, and a class for the right set of layers.
 
