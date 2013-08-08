@@ -53,3 +53,5 @@ pulls in the proper layers, and sets their colors too.
 
 .esri-logo:before {content:"esriback"; color: #c4dff4}
 ```
+
+For an example of a robust thre color icon font, check out the [Devicon](http://nikolaswise.github.io/devicons/) project, and start using it and adding to it at the [Devicon Repo](https://github.com/nikolaswise/devicons)
